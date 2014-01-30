@@ -35,8 +35,10 @@ USER_DIR = $(top_srcdir)
 MTCR_DIR = $(USER_DIR)/include/mtcr_ul
 AM_CPPFLAGS = -I. -I../common -I$(MTCR_DIR) -I.. -I$(USER_DIR)/mtcr_ul
 
-AM_CFLAGS = -W -Wall -Werror -g -MP -MD $(COMPILER_FPIC) 
-noinst_LIBRARIES = libtools_res_mgmt.a
+AM_CFLAGS = -W -Wall -Werror -g -MP -MD $(COMPILER_FPIC)
+
+libtools_res_mgmt_adir = $(libdir)/mstflint
+libtools_res_mgmt_a_LIBRARIES = libtools_res_mgmt.a
 
 libtools_res_mgmt_a_SOURCES = tools_res_mgmt.c tools_time.c
 
