@@ -71,3 +71,5 @@ libmlxfwops_a_SOURCES = flint_base.cpp \
                mlxfwops_com.h fw_ops.h flint_base.h flint_io.h \
                aux_tlv_ops.h aux_tlv_ops.cpp
 
+libraryincludedir=$(includedir)/mstflint/mlxfwops/uefi_c
+libraryinclude_HEADERS = $(UEFI_COMMON_DIR)/mft_uefi_common.h
