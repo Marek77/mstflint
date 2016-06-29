@@ -42,5 +42,4 @@ CMDIF_VERSION = 1
 libcmdif_adir = $(libdir)/mstflint
 libcmdif_a_LIBRARIES = libcmdif.a
 
-libcmdif_a_SOURCES = tools_cif.c tools_cif.h icmd_cif_common.c icmd_cif_common.h icmd_cif_open.c icmd_cif_open.h
-
+libcmdif_a_SOURCES = tools_cif.c tools_cif.h icmd_cif_common.c icmd_cif_common.h icmd_cif_open.c icmd_cif_open.h icmd_cif_macros.h 
