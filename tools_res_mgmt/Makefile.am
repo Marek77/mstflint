@@ -40,7 +40,7 @@ AM_CFLAGS = -W -Wall -Werror -g -MP -MD $(COMPILER_FPIC)
 libtools_res_mgmt_adir = $(libdir)/mstflint
 libtools_res_mgmt_a_LIBRARIES = libtools_res_mgmt.a
 
-libtools_res_mgmt_a_SOURCES = tools_res_mgmt.c tools_time.c
+libtools_res_mgmt_a_SOURCES = tools_res_mgmt.c tools_res_mgmt.h tools_time.c tools_time.h
 
 if ENABLE_INBAND
 else
