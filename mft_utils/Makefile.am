@@ -32,7 +32,7 @@
 
 # Makefile.am -- Process this file with automake to produce Makefile.in
 USER_DIR = $(top_srcdir)
-AM_CPPFLAGS = -I. -I$(USER_DIR)/common
+AM_CPPFLAGS = -I. -I$(USER_DIR)/common -fPIC
 
 AM_CFLAGS = -MD -pipe -Wall -W -Werror
 
