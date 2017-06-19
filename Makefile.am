@@ -39,5 +39,6 @@ EXTRA_DIST = \
 	small_utils/hca_self_test.ofed \
 	common/gitversion.h \
 	debian \
+	mlxsign_lib \
 	$(man_MANS)
 

@@ -48,6 +48,8 @@ FWCOMPS_VERSION = 1
 
 AM_CXXFLAGS = -Wall -W -g -MP -MD -pipe -Werror $(COMPILER_FPIC)
 
+AM_CPPFLAGS = -fPIC
+
 noinst_LIBRARIES = libfw_comps_mgr.a
 
 libfw_comps_mgr_a_SOURCES = \

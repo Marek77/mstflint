@@ -96,7 +96,13 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/mstmcra
 %{_bindir}/mstconfig
 %{_includedir}/mstflint/mtcr.h
+%{_includedir}/mstflint/mflash.h
+%{_includedir}/mstflint/mflash_common_structs.h
+%{_includedir}/mstflint/mflash_types.h
 %{_includedir}/mstflint/mtcr_com_defs.h
+%{_includedir}/mstflint/mtcr_mf.h
+%{_includedir}/mstflint/mlxfwops/uefi_c/mft_uefi_common.h
+%{_includedir}/mstflint/compatibility.h
 %{_includedir}/mtcr_ul/mtcr.h
 %{_includedir}/mtcr_ul/mtcr_com_defs.h
 %{_libdir}/mstflint/libmtcr_ul.a
@@ -109,6 +115,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/libmtcr_ul.a
 %{_datadir}/mstflint
 %{_mandir}/man1/*
+%{_usr}/share/%{name}/mlxconfig_dbs/mlxconfig.db
 
 %changelog
 * Mon May 08 2017 Adrian Chiris <adrianc@dev.mellanox.co.il>
